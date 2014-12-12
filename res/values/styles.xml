@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="android:Theme_NoTitleBar" parent="@android:style/Theme.NoTitleBar"></style>
+    <style name="android:Theme_NoDisplay" parent="@android:style/Theme.NoDisplay"></style>
+    <style name="DialogNoTitle" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

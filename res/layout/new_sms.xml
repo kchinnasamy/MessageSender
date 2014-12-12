@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+		<ScrollView android:id="@+id/ScrollView01"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:myapp="http://schemas.android.com/apk/res/com.kpj4s.way2sms"
+				
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			<LinearLayout android:id="@+id/llayout_new_sms"
+				android:layout_height="fill_parent" android:layout_width="fill_parent"
+				android:orientation="vertical" android:padding="1dp">
+
+				<LinearLayout
+				    android:id="@+id/ll_adview"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical" >
+				</LinearLayout>
+
+				<LinearLayout android:id="@+id/LinearLayout06"
+					android:layout_height="wrap_content" android:layout_width="fill_parent"
+					android:padding="3dp">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/txtview_from"
+						android:text="@string/txtview_from" android:textSize="20sp"
+						android:layout_weight="0.1" android:textColor="#FFFFFF"></TextView>
+					<TextView android:layout_height="wrap_content"
+						android:hint="Sender Number" android:id="@+id/txtview_sender"
+						android:layout_width="wrap_content" android:textSize="20sp"
+						android:textColor="#FFD770" android:padding="5dp"
+						android:layout_weight="0.95"></TextView>
+
+				</LinearLayout>
+
+				<LinearLayout
+				    android:id="@+id/linearLayout2"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical" android:padding="3dp">
+
+					<TextView
+					    android:id="@+id/TextView01"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_weight="0.1"
+					    android:text="@string/txtview_to"
+					    android:textColor="#FFFFFF"
+					    android:textSize="20sp" />
+
+				</LinearLayout>
+
+				<LinearLayout android:layout_width="fill_parent"
+					android:id="@+id/ll_smartContact" android:layout_height="wrap_content"
+					android:padding="5dp" android:visibility="visible">
+
+					<MultiAutoCompleteTextView
+					    android:id="@+id/mactxtview_recipients"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_weight="0.20" android:hint="@string/hint_to">
+
+					    <requestFocus />
+					</MultiAutoCompleteTextView>
+				</LinearLayout>
+
+				<LinearLayout
+				    android:id="@+id/linearLayout1"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content" >
+
+				    <Button
+				        android:id="@+id/button_contacts"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1.25"
+				        android:text="@string/button_contact" />
+
+				    <Button
+				        android:id="@+id/button_groups"
+				        android:layout_width="128dp"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="0.41"
+				        android:text="@string/button_groups" />
+
+				</LinearLayout>
+
+				<LinearLayout android:id="@+id/LinearLayout04"
+					android:layout_width="fill_parent" android:orientation="vertical"
+					android:layout_height="wrap_content">
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_gravity="right"
+						android:text="@string/txtview_msgsize" android:id="@+id/txtview_msgsize"
+						android:padding="3dp" android:textColor="#990000" android:textSize="20sp"></TextView>
+
+				</LinearLayout>
+				<LinearLayout android:id="@+id/LinearLayout05"
+					android:layout_height="wrap_content" android:layout_width="fill_parent"
+					android:layout_weight="0.5" android:orientation="horizontal"
+					android:padding="5dp">
+					<EditText android:layout_height="wrap_content"
+						android:editable="true" android:hint="@string/hint_msg"
+						android:layout_width="fill_parent" android:id="@+id/etxt_msg"
+						android:layout_weight="10" android:autoText="true"></EditText>
+					<Button android:layout_height="wrap_content" android:text="@string/button_Send"
+						android:id="@+id/button_send" android:layout_gravity="center"
+						android:layout_weight="0.1" android:layout_width="wrap_content"></Button>
+
+				</LinearLayout>
+
+
+				<LinearLayout android:id="@+id/LinearLayout07"
+					android:layout_height="wrap_content" android:layout_width="fill_parent"
+					android:padding="5dp">
+					<Button android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_weight="0.5"
+						android:layout_gravity="center_vertical|center_horizontal|center"
+						android:text="@string/button_clearcontacts" android:id="@+id/button_clearcontacts"></Button>
+					<Button android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_weight="0.5"
+						android:layout_gravity="center_vertical|center_horizontal|center"
+						android:id="@+id/button_clearmsg" android:text="@string/button_clearmsg"></Button>
+
+
+				</LinearLayout>
+				
+			</LinearLayout>
+
+		</ScrollView>
+
+
+

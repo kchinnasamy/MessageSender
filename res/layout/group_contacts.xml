@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:id="@+id/llayout_group_contacts">
+
+    <ListView
+        android:id="@+id/lv_grouplist"
+        android:layout_width="fill_parent"
+        android:layout_height="362dp"
+        android:layout_weight="0.87" >
+    </ListView>
+
+    <Button
+        android:id="@+id/button_addgroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_addgroup" />
+
+</LinearLayout>

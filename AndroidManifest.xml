@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kpj4s.way2sms"
+    android:versionCode="23"
+    android:versionName="3.4.3" android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+   
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".Way2Sms"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ContactsList Activity -->
+        <activity
+            android:name="com.kpj4s.communication.ContactList"
+            android:label="@string/activity_ContactList" >
+        </activity>
+
+        <!-- NewAccount Activity -->
+        <activity
+            android:name="com.kpj4s.communication.NewAccount"
+            android:label="@string/activity_newaccount" >
+        </activity>
+
+        <!-- AccountList Activity -->
+        <activity
+            android:name="com.kpj4s.communication.AccountList"
+            android:label="@string/activity_AccountList" >
+        </activity>
+
+        <!-- AdMob definition -->
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <!-- Group Contacts -->
+        <activity
+            android:name="com.kpj4s.communication.GroupContacts"
+            android:label="@string/activity_group" >
+        </activity>
+
+        <!-- Add/Edit Group -->
+        <activity
+            android:name="com.kpj4s.communication.AddEditGroup"
+            android:label="@string/activity_group" >
+        </activity>
+        <activity
+            android:name="com.kpj4s.communication.SplashScreen"
+            android:theme="@style/DialogNoTitle" />
+        <activity
+            android:name="com.kpj4s.communication.Settings"
+            android:label="@string/activity_settings" >
+        </activity>
+    </application>
+
+</manifest>

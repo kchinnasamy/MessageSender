@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WayToSms</string>
+    <string name="hint_updatelink">There is new version available in the market. Please update to continue sending SMS</string>
+
+    <!-- Ad ID -->
+    <string name="AdID">a14d774f559ccc9</string>
+
+    <!-- Old Contacts Style -->
+    <string name="txtview_to">To:</string>
+    <string name="hint_number">Enter mobile number(s) separated by ,</string>
+    <string name="hint_contact">Select contacts</string>
+    <string name="button_contact">Contacts</string>
+    <string name="button_finish">Finish</string>
+    <string name="hint_searrch">Search</string>
+    <string name="button_cancel">Cancel</string>
+
+    <!-- Group Contacts -->
+    <string name="activity_group">Group</string>
+    <string name="button_addgroup">Add Group</string>
+    <string name="button_contacts">Contacts</string>
+    <string name="txt_groupname">Group Name</string>
+    <string name="txt_groupcontacts">Group Contacts</string>
+    <string name="button_groups">Groups</string>
+    <string name="toast_emptyFeild">Empty Group Name or Contacts</string>
+    <string name="toast_groupcreated">Group Created</string>
+    <string name="toast_groupexists">Group Name Already Exists</string>
+    <string name="toast_changesaved">Change Saved</string>
+    <string name="toast_groupdeleted">Group Deleted</string>
+
+    <!-- Smart Search Contacts -->
+    <string name="hint_to">Type to search and add contact and/or enter nos. separated by comma (,)</string>
+    <string name="activity_ContactList">Contact List</string>
+
+    <!-- Main SMS window -->
+    <string name="activity_sendsms">Send SMS</string>
+    <string name="txtview_from">From:</string>
+    <string name="txtview_msgsize">0/0</string>
+    <string name="hint_msg">Message</string>
+    <string name="button_Send">Send</string>
+    <string name="button_clearcontacts">Clear contacts</string>
+    <string name="button_clearmsg">Clear message</string>
+
+    <!-- Accounts list -->
+    <string name="activity_AccountList">List of Accounts</string>
+    <string name="hint_delete">Are you sure you want to delete ?</string>
+
+    <!-- Add account window -->
+    <string name="activity_newaccount">Add Account</string>
+    <string name="txtview_username">Username :</string>
+    <string name="hint_username">Phone Number</string>
+    <string name="txtview_password">Password :</string>
+    <string name="hint_password">Password</string>
+    <string name="button_save">Save</string>
+    <string name="button_done">Done</string>
+    <string name="toast_invalidContacts">Please enter valid Phone number(s) and/or select Contact(s)</string>
+    <string name="toast_charLimit">Character limit reached !</string>
+    <string name="toast_msgSent">Msg Sent</string>
+    <string name="toast_internalFailure">Way2Sms Server is down. Please try again after some time.</string>
+    <string name="toast_connectionError">Please check your internet connection</string>
+    <string name="toast_loginFailure">Invalid username/password. Please re-enter.</string>
+    <string name="toast_accountCreated">Account added</string>
+    <string name="toast_accountExits">Account already exists</string>
+    <string name="toast_invalidAcountCredentials">Enter valid Username and Password</string>
+    <string name="toast_backendError">Way2SmsServer is down</string>
+    <string name="txtview_loginhint">Please enter your Way2Sms account credentials here. To create an account please visit <a href="http://www.way2sms.com">www.way2sms.com</a></string>
+    <string name="hint_chngpwd">Please change the password on www.way2sms.com and only then update it here</string>
+
+    <!-- Splash screen -->
+    <string name="version_url">https://dl.dropbox.com/u/22979833/way2sms-version.txt</string>
+    <string name="default_splash_url">https://dl.dropbox.com/u/22979833/way2sms-default-notification.html</string>
+    <string name="current_splash_url">https://dl.dropbox.com/u/22979833/way2sms-current-notification.html</string>
+    <string name="checkbox_donotshowagain"> Do not show this again</string>
+    <string name="activity_splashscreen">Notification</string>
+    <string name="button_ok">Ok</string>
+
+    <!-- Settings -->
+    <string name="checkbox_smiley">Replace Enter button by Smiley on the Keyboard</string>
+    <string name="checkbox_autoclear">Auto clear message after sending</string>
+    <string name="activity_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.kpj4s.way2sms"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:id="@+id/llayout_new_account">
+
+	<TextView android:id="@+id/txtview_loginhint"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/txtview_loginhint" />
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:padding="5dp">
+
+		<TextView android:id="@+id/txt_username"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:text="@string/txtview_username"
+			android:textSize="20sp">
+		</TextView>
+
+		<EditText android:id="@+id/etxt_username"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:hint="@string/hint_username" android:numeric="integer">
+		</EditText>
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:padding="5dp">
+
+		<TextView android:id="@+id/txt_password"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:text="@string/txtview_password"
+			android:textSize="20dp">
+		</TextView>
+
+		<EditText android:id="@+id/etxt_password"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:hint="@string/hint_password" android:password="true">
+		</EditText>
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:padding="5dp">
+
+		<Button android:id="@+id/button_save" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="0.5"
+			android:text="@string/button_save">
+		</Button>
+
+		<Button android:id="@+id/button_done" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="0.5"
+			android:text="@string/button_done">
+		</Button>
+	</LinearLayout>
+
+</LinearLayout>
